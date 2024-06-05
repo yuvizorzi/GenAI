@@ -1,0 +1,13 @@
+prefix=/Users/yuvipatilzorzi/GenAI/GenAI
+exec_prefix=/Users/yuvipatilzorzi/GenAI/GenAI
+libdir=/Users/yuvipatilzorzi/GenAI/GenAI/lib
+sharedlibdir=/Users/yuvipatilzorzi/GenAI/GenAI/lib
+includedir=/Users/yuvipatilzorzi/GenAI/GenAI/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
